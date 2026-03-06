@@ -1,0 +1,12 @@
+[*.{kt,kts}]
+# Compose function naming rules
+ktlint_function_naming_ignore_when_annotated_with=Composable
+# Allow wildcard imports (optional, but requested for some files)
+ij_kotlin_allow_trailing_comma=true
+insert_final_newline=true
+max_line_length=120
+indent_size=4
+
+[app/src/test/**.kt]
+# Explicitly allow wildcards in tests if needed, or just fix them.
+# For now, let's keep the project clean.
